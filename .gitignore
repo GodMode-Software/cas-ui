@@ -1,0 +1,13 @@
+# Build Directory
+dist/
+
+#NPM packages folder.
+node_modules
+
+# lock files
+package-lock.json
+
+#IDEA folders
+.idea/
+.cache/
+
