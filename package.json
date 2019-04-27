@@ -7,7 +7,8 @@
     "start": "parcel ./src/index.html -p 3000 --open",
     "serve-dev": "parcel ./src/index.html -p 300 --open",
     "build": "parcel build src/index.html",
-    "ts-lint": "tslint -c tslint.json 'src/**/*.ts*'"
+    "ts-lint": "tslint -c tslint.json 'src/**/*.ts*'",
+    "test": "jest --watchAll"
   },
   "keywords": [],
   "author": "Peter L. Kim",
